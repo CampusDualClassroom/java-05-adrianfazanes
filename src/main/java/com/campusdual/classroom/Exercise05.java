@@ -14,7 +14,7 @@ public class Exercise05 {
         checkPositiveNegative(10);
     }
 
-    // Método que comprueba si n1 es menor o mayor/igual que n2
+    // Metodo que comprueba si n1 es menor o mayorigual que n2
     public static void checkLessOrGreaterEqual(int n1, int n2) {
         if (n1 < n2) {
             System.out.println(n1 + " es menor que " + n2);
@@ -23,7 +23,7 @@ public class Exercise05 {
         }
     }
 
-    // Método que comprueba si n1 es múltiplo de n2
+    // Metodo que comprueba si n1 es múltiplo de n2
     public static void checkMultiply(int n1, int n2) {
         if (n2 != 0 && n1 % n2 == 0) {
             System.out.println(n1 + " es múltiplo de " + n2);
@@ -32,7 +32,7 @@ public class Exercise05 {
         }
     }
 
-    // Método que comprueba si num es negativo o positivo
+    // Metodo que comprueba si num es negativo o positivo
     public static void checkPositiveNegative(int num) {
         if (num < 0) {
             System.out.println(num + " es negativo.");
