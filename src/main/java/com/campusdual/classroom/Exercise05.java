@@ -26,9 +26,9 @@ public class Exercise05 {
     // Metodo que comprueba si n1 es múltiplo de n2
     public static void checkMultiply(int n1, int n2) {
         if (n2 != 0 && n1 % n2 == 0) {
-            System.out.println(n1 + " es multiplo de " + n2);
+            System.out.println(n1 + " es múltiplo de " + n2);
         } else {
-            System.out.println(n1 + " no es multiplo de " + n2);
+            System.out.println(n1 + " no es múltiplo de " + n2);
         }
     }
 
